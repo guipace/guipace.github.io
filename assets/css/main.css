@@ -55,6 +55,20 @@ body {
 	-webkit-text-size-adjust: none;
 }
 
+body::-webkit-scrollbar {
+	width: 1rem;               /* width of the entire scrollbar */
+}
+
+body::-webkit-scrollbar-track {
+	background: #1C1C27;        /* color of the tracking area */
+}
+
+body::-webkit-scrollbar-thumb {
+	background-color: #6c757d;    /* color of the scroll thumb */
+	border-radius: 20px;       /* roundness of the scroll thumb */
+	border: 3px solid #6c757d;  /* creates padding around scroll thumb */
+}
+
 mark {
 	background-color: transparent;
 	color: inherit;
@@ -76,6 +90,7 @@ input, select, textarea {
 
 	html {
 		box-sizing: border-box;
+		scroll-behavior: smooth;
 	}
 
 	*, *:before, *:after {
@@ -3157,15 +3172,15 @@ input, select, textarea {
 		}
 
 		.spotlight.style1 .content {
-			border-color: #e44c65;
+			border-color: #E44D64;
 		}
 
 		.spotlight.style2 .content {
-			border-color: #5480f1;
+			border-color: #E44D64;
 		}
 
 		.spotlight.style3 .content {
-			border-color: #39c088;
+			border-color: #E44D64;
 		}
 
 		.spotlight.inactive .content {
@@ -3505,6 +3520,8 @@ input, select, textarea {
 			transition: transform 0.5s ease, opacity 0.5s ease;
 			display: inline-block;
 			font-size: 1.75em;
+			font-weight:700;
+			letter-spacing: 0.2em;
 			opacity: 1;
 			padding: 0.35em 1em;
 			position: relative;
