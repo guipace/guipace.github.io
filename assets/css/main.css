@@ -2168,6 +2168,11 @@ input, select, textarea {
 		text-align: center;
 	}
 
+	#aboutMe p {
+		font-size: 1.25em;
+		text-align: justify;
+	}
+
 	header p {
 		color: #ffffff;
 		position: relative;
