@@ -2412,6 +2412,24 @@ input, select, textarea {
 
 /* Icon */
 
+	.icon_container {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		background: #272833;
+		border-radius: 100%;
+		cursor: default;
+		height: 6em;
+		line-height: 5.65em;
+		margin: 1em auto;
+		text-align: center;
+		width: 6em;
+	}
+
+		.icon_container img {
+			height: 3em;
+		}
+
 	.icon {
 		text-decoration: none;
 		border-bottom: none;
